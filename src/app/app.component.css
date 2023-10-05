@@ -1,0 +1,17 @@
+div.container-featured{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.featured-articles{
+    width: 100%;
+}
+
+@media (min-width:990px){
+    div.container-featured{
+        flex-direction: row;
+    }
+    .featured-articles{
+        width: 50%;
+    }    
+}

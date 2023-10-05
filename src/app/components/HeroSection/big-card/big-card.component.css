@@ -1,0 +1,51 @@
+.container-big-card{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff1a;
+}
+.thumbnail{
+    width: 100%;
+}
+.thumbnail img{
+    width: 100%;
+}
+
+.content-big-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-big-card span{
+    color: #ffffff57;
+    font-size: 1rem;
+}
+.content-big-card h2{
+    font-size: 2rem;
+}
+.content-big-card p{
+    color: #ffffff80;
+    font-size: 1.1rem;
+}
+
+@media (min-width:770px){
+    .container-big-card{
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .thumbnail{
+        min-width: 50%;
+    }
+}
+
+
+@media (min-width:990px){
+    .container-big-card{
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-bottom: 0;
+        border: 0;
+    }
+}
+
