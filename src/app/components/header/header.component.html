@@ -8,8 +8,15 @@
     </a>
     <nav>
         <ul>
-            <li><a [routerLink]="['']">Home</a></li>
-            <li><a [routerLink]="['post/0']">Página Notícia</a></li>
+            <li><a 
+                [routerLink]="['']" 
+                [routerLinkActive]="['activated']" 
+                [routerLinkActiveOptions]="{exact: true}" >
+                Home</a></li>
+            <li><a 
+                [routerLink]="['post/0']" 
+                [routerLinkActive]="['activated']">
+                Página Notícia</a></li>
             <li><a [routerLink]="['']">Contato</a></li>
         </ul>
     </nav>

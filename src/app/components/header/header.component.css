@@ -26,3 +26,8 @@ li a {
 li a:hover{
     color: #fff;
 }
+
+li a.activated{
+    color: #fff;
+    font-weight: bold;
+}

@@ -2,11 +2,17 @@
     padding-bottom: 3rem;
 }
 .title h1{
-    font-size: 4rem;
+    font-size: 2rem;
     border-top: 1px solid #494949;
     border-bottom: 1px solid #494949;
     padding: 1rem 0;
     margin: 1.5rem 0;
+}
+
+@media (min-width:770px){
+    .title h1{
+        font-size: 4rem;
+    }
 }
 
 .details{
