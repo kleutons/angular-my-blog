@@ -16,15 +16,36 @@ a{
 ul>li{
     list-style: none;
 }
-.container{width:100%; margin: 0 auto;}
-@media (min-width:1080px){.container{max-width:1280px}}
+.container{width:100%; margin: 0 auto}
+@media (min-width:1080px){
+    .container{max-width:1280px; padding: 0 40px;}
+}
 
 .dark {
     background: #121212;
     color: #ffffff;
-    padding: 20px 40px 40px 40px;
+    padding: 1px 10px;
 }
 .whitearea {
     background: #ffffff;
-    padding: 60px 40px 40px 40px;
+    padding: 1px 10px;
+}
+
+@media (min-width:770px){
+    .dark{
+        padding: 1px 30px;
+    }
+    .whitearea {
+        padding: 1px 30px;
+    }
+}
+
+
+@media (min-width:990px){
+    .dark{
+        padding: 1px 40px;
+    }
+    .whitearea {
+        padding: 0 40px;
+    }
 }

@@ -1,0 +1,17 @@
+article div.whitearea{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+article div.whitearea img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width:990px){
+    article div.whitearea img{
+        width: 70%;
+    }
+}

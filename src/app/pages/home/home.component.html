@@ -1,0 +1,17 @@
+<div class="dark">
+  <app-title-home></app-title-home>
+  <div class="container-featured">
+      <div class="featured-articles">
+        <app-big-card 
+        cardId="{{ homeBigCard?.id }}"
+        cardImg="{{ homeBigCard?.img }}"
+        cardTitle="{{ homeBigCard?.title }}"
+        cardDate="{{ homeBigCard?.date }}"
+        cardContent="{{ homeBigCard?.content }}"
+        ></app-big-card>
+      </div>
+      <div class="featured-articles">
+        <app-small-card [smallCards]="smallCardArray"></app-small-card>
+      </div>
+  </div>
+</div>

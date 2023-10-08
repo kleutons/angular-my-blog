@@ -1,0 +1,17 @@
+.title{
+    padding-bottom: 3rem;
+}
+.title h1{
+    font-size: 4rem;
+    border-top: 1px solid #494949;
+    border-bottom: 1px solid #494949;
+    padding: 1rem 0;
+    margin: 1.5rem 0;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
